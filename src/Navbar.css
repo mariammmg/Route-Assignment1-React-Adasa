@@ -1,0 +1,83 @@
+
+.custom-navbar {
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(16px);
+  transition: all 0.5s ease;
+}
+
+
+.logo-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo-sub {
+  font-size: 12px;
+  color: rgba(251, 146, 60, 0.8);
+}
+
+.nav-pill-background {
+  background: #161616;
+  border: 1px solid #262626;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px !important;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+
+.active {
+  background: linear-gradient(to left, #f97316, #ea580c);
+  color: #ffffff !important;
+}
+
+
+.search-btn {
+  padding: 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: #737373;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  color: #f97316;
+  background: #161616;
+  border-color: #262626;
+}
+
+.read-btn {
+  background: linear-gradient(to left, #f97316, #ea580c);
+  font-size: 16px;
+}
+
+.mobile-menu {
+  background: #161616;
+  backdrop-filter: blur(16px);
+  border: 1px solid #262626;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.mobile-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a3a3a3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.mobile-link:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.active-mobile {
+  background-color: rgba(249, 115, 22, 0.1);
+  color: #f97316;
+  border: 1px solid rgba(249, 115, 22, 0.3);
+}

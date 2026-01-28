@@ -1,0 +1,156 @@
+/* Footer.css */
+
+/* Footer base */
+.custom-footer {
+  background: #0a0a0a;
+  color: #d4d4d4;
+  border-color: #262626 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glows */
+.footer-glow {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.6;
+}
+
+.glow-orange {
+  top: 0;
+  left: 25%;
+  background: rgba(249, 115, 22, 0.15);
+}
+
+.glow-yellow {
+  bottom: 0;
+  right: 25%;
+  background: rgba(250, 204, 21, 0.15);
+}
+
+/* Brand */
+.brand-icon {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(to bottom right, #f97316, #ea580c);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.3);
+}
+
+.text-neutral {
+  color: #737373;
+}
+
+/* Titles */
+.footer-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center; /* center line */
+  display: inline-block;
+  position: relative;
+}
+
+.footer-title::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 3px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+  border-radius: 999px;
+  background: linear-gradient(to left, #f97316, #facc15);
+}
+
+/* Links */
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: #737373;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f97316;
+}
+
+/* Social */
+.social-btn {
+  width: 40px;
+  height: 40px;
+  background: #161616;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-btn:hover {
+  background: linear-gradient(to bottom right, #f97316, #ea580c);
+  color: #fff;
+  border-color: transparent;
+  transform: scale(1.1);
+}
+
+/* Subscribe */
+.footer-input {
+  background: #161616;
+  border: 1px solid #262626;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.footer-input::placeholder {
+  color: #525252;
+}
+
+.footer-input:focus {
+  background: #161616;
+  border-color: #f97316;
+  box-shadow: 0 0 0 1px #f97316;
+  color: #fff;
+}
+
+.footer-btn {
+  background: linear-gradient(to left, #f97316, #ea580c);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+/* Bottom */
+.footer-bottom {
+  border-color: #262626 !important;
+}
+
+.footer-bottom-link {
+  color: #737373;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom-link:hover {
+  color: #f97316;
+}
+
+.text-orange {
+  color: #f97316;
+}

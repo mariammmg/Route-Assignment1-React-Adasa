@@ -1,0 +1,73 @@
+.blog-header {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 146, 60, 0.1),
+    rgba(253, 230, 138, 0.05)
+  ) !important;
+  border-color: rgba(251, 146, 60, 0.2) !important;
+}
+.f-18 {
+  font-size: 18px !important;
+}
+.f-30 {
+  font-size: 30px !important;
+}
+.f-16 {
+  font-size: 16px !important;
+}
+.border-clr {
+  border-color: rgba(255, 165, 0, 0.3) !important;
+}
+.shareicon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 165, 0, 0.1);
+  border: 1px solid rgba(255, 165, 0, 0.3);
+  color: #ea580c;
+}
+.social-btn {
+  width: 44px;
+  height: 44px;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  color: #b0b0b0;
+  transition: all 0.3s ease;
+}
+.social-btn:hover {
+  color: white;
+  border-color: transparent;
+}
+
+/* Individual Hover Colors */
+.social-btn.twitter:hover {
+  background-color: #1da1f2;
+}
+
+.social-btn.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social-btn.whatsapp:hover {
+  background-color: #25d366;
+}
+.social-btn.link:hover {
+  background-color: #ea580c;
+}
+.content {
+  background-color: #111111;
+  border-color: #262626 !important;
+}
+.hover-link:hover {
+  background-color: rgba(249, 115, 22, 0.1);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  border-radius: 15px !important;
+}
+.hover-link:hover span {
+  color: #f97316 !important;
+}
+.tag {
+  background-color: #1a1a1a;
+  color: gray;
+}
